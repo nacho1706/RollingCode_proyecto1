@@ -56,9 +56,9 @@ main {
     padding: 0;
 }
 .logo-grande{
+    display: none;
     width: 100%;
     padding: 0;
-    display: none;
 }
 .container-buscador {
     margin: 0;
@@ -117,8 +117,6 @@ main {
     .logo-chico{
         display: none;
     }
-
-
 }
 
 @media screen and (max-width: 576px) {
@@ -128,10 +126,14 @@ main {
         /* background-color: aqua; */
 
     }
+
+    
 }
-.logo-grande{
-    display:block;
-}
-.logo-chico{
-    display: none;
+@media screen and (min-width: 576px){
+    .logo-grande{
+        display:block;
+    }
+    .logo-chico{
+        display: none;
+    }
 }
