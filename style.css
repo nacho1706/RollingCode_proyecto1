@@ -12,7 +12,6 @@ header {
   position: sticky;
   top: 0px;
   z-index: 10;
-  /* margin: 0; */
 }
 
 main {
@@ -20,24 +19,17 @@ main {
 }
 
 .carousel {
-  /* width: 99%; */
-  margin: 0 10px 0 10px;
+  padding: 0 10px 0 10px;
 }
 
-/* 
-    .carousel-indicators {
-    width: 100%;
-    } */
 
 .nav-bar {
   width: 100%;
-  /* background-color: aliceblue; */
 }
 
 .container-nav {
   display: grid !important;
   grid-template-columns: 15% 1fr 10% 10%;
-  /* background-color: aqua; */
   width: 100%;
   gap: 2px;
   justify-self: center;
@@ -46,7 +38,6 @@ main {
 .container-logo {
   margin: 0;
   padding: 0;
-  /* background-color: blue; */
   grid-template-columns: 1/2;
 }
 
@@ -62,7 +53,6 @@ main {
 .container-buscador {
   margin: 0;
   padding: 0;
-  /* background-color: violet; */
   grid-column: 2/3;
 }
 
@@ -79,13 +69,11 @@ main {
 .carrito {
   margin: 0;
   padding: 0;
-  /* background-color: blue; */
   grid-column: 3/4;
   justify-self: center;
 }
 
 .container-burguer {
-  /* background-color: brown; */
   margin: 0;
   padding: 0;
   grid-column: 4/5;
@@ -104,7 +92,6 @@ main {
   .container-nav {
     display: grid !important;
     grid-template-columns: 10% 1fr 5% 35%;
-    /* background-color: aqua;  */
   }
   .logo-grande {
     display: block;
@@ -118,7 +105,6 @@ main {
   .container-nav {
     display: grid !important;
     grid-template-columns: 10% 1fr 15% 15%;
-    /* background-color: aqua; */
   }
   .img-form {
     display: none;
