@@ -1,0 +1,30 @@
+#texto {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(244, 238, 238);
+    min-height: 100vh
+}
+
+footer{
+    background-color: rgb(218,209,198);
+}
+#bloques {
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+    #logo_navbar {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width: 763px) {
+        .chico {
+            display: none;
+        }
+    }

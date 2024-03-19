@@ -1,6 +1,8 @@
 main {
-    margin: 30px;
-    background-color: hsla(9, 48%, 95%, 1);
+    margin: 0px;
+    padding: 0;
+    min-height: 74vh;
+    /* background-color: hsla(9, 48%, 95%, 1); */
     
 }
 
@@ -22,3 +24,14 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width: 576px) {
+    #logo_navbar {
+        width: 75px;
+    }
+}
+    @media screen and (max-width: 763px) {
+        .chico {
+            display: none;
+        }
+    }
